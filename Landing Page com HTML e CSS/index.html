@@ -7,6 +7,11 @@
 
     <link rel="stylesheet" href="./src/assets/css/style.css">
     <link rel="stylesheet" href="./src/assets/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+
     <title>Escola de música do Tom</title>
 </head>
 
@@ -19,15 +24,15 @@
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
-        <a href="#" class="button mt-1 mx-auto">Inscreva-se</a>
+        <a href="#" class="button mt-1 mb-1 mx-auto">Inscreva-se</a>
     </header>
 
     <main>
         <section class="hero-section">
             <img src="./src/assets/img/hero-img.svg" alt="banda de jazz tocando">
             <div>
-                <h1>Crie algo <span class="text-primary">impactante</span> com música</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
+                <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+                <p class="mt-2 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
                     magna aliqua.</p>
                 <a href="#" class="button mt-1 mx-auto">Comece agora</a>
             </div>
@@ -35,7 +40,7 @@
 
         <section class="courses-section">
             <div class="cards">
-                <article>
+                <article class="card">
                     <img src="./src/assets/img/piano.png" alt="ícone de teclas de piano">
                     <strong>Piano popular</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -44,7 +49,7 @@
                     </a>
                 </article>
 
-                <article>
+                <article class="card">
                     <img src="./src/assets/img/clef.png" alt="ícone da clave de sol">
                     <strong>Teoria musical</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -53,7 +58,7 @@
                     </a>
                 </article>
 
-                <article>
+                <article class="card">
                     <img src="./src/assets/img/sax.png" alt="ícone de saxofone">
                     <strong>Sax alto</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -62,7 +67,7 @@
                     </a>
                 </article>
 
-                <article>
+                <article class="card">
                     <img src="./src/assets/img/drums.png" alt="ícone de bateria">
                     <strong>Bateria</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -71,27 +76,28 @@
                     </a>
                 </article>
             </div>
-            <h2>E <span class="text-primary">vários</span> outros!</h2>
-            <a href="#">Conhecer os cursos</a>
+            <h2 class="text-center">E <span class="text-primary">vários</span> outros!</h2>
+            <a href="#" class="button mt-2 mx-auto">Conhecer os cursos</a>
         </section>
     </main>
 
     <footer>
         <div>
-            <img src="./src/assets/img/logo.svg" alt="logo da escola de música">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
+            <img src="./src/assets/img/logo.svg" alt="logo da escola de música" class="mt-1 mb-1">
+            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
                 magna aliqua</p>
         </div>
 
-        <nav>
+        <nav class="mb-2">
             <a href="#">Início</a>
             <a href="#">Cursos</a>
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
-        <form>
-            <label for="email">Receba materiais gratuitos no seu email</label>
-            <input type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+        <form class="newsletter-form">
+            <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite o seu e-mail">
+            <button class="button mb-2">Quero receber</button>
         </form>
     </footer>
 </body>

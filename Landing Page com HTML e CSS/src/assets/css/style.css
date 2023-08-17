@@ -1,6 +1,6 @@
 :root {
     --primary: #ED4D1B;
-    --secundary: #FF9A3C;
+    --secondary: #FF9A3C;
     --black: #000;
     --white: #fff; 
 }
@@ -53,6 +53,120 @@ header nav a:nth-child(2n-1) {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.hero-section {
+    padding-right: 0;
+    padding-bottom: 16rem;
+}
+
+.hero-section img {
+    display: block;
+    margin: 1.25rem 0 0 auto;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 105%;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.hero-section .button {
+    position: relative;
+}
+
+.hero-section .button::after {
+    content: '';
+    background: url("./img/arrow-curve.svg");
+    position: absolute;
+    top: 4rem;
+    right: -4rem;
+    height: 48px;
+    width: 132px;
+}
+
+.decoration {
+    display: block;
+    position: relative;
+}
+
+.decoration::after {
+    content: '';
+    background: url("./img/three-dashes.svg");
+    position: absolute;
+    top: -0.75rem;
+    height: 36px;
+    width: 40px;
+}
+
+.courses-section {
+    padding-bottom: 8rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.25rem;
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+    background-color: var(--primary);
+    border: 2px solid var(--black);
+    box-shadow: 4px 4px 0 var(--black);
+    max-width: 17rem;
+    padding: 2rem 0 0 2rem;
+}
+
+.card:nth-child(2n) {
+    align-self: end;
+    background-color: var(--secondary);
+}
+
+.card strong {
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card a {
+    display: block;
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+}
+
+footer {
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a {
+    display: block;
+    padding-left: 0;
+}
+
+.newsletter-form label {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.newsletter-form input {
+    border: 2px solid var(--black);
+    box-shadow: 4px 4px 0 var(--black);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
 /* ------------------------------------------ */
 
 .mt-1 {
@@ -83,3 +197,5 @@ header nav a:nth-child(2n-1) {
 .text-center {
     text-align: center;
 }
+
+/* ------------------------------------------ */
