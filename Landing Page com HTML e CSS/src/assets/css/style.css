@@ -85,7 +85,7 @@ h2 {
 
 .hero-section .button::after {
     content: '';
-    background: url("./img/arrow-curve.svg");
+    background: url("../img/arrow-curve.svg");
     position: absolute;
     top: 4rem;
     right: -4rem;
@@ -100,7 +100,7 @@ h2 {
 
 .decoration::after {
     content: '';
-    background: url("./img/three-dashes.svg");
+    background: url("../img/three-dashes.svg");
     position: absolute;
     top: -0.75rem;
     height: 36px;
