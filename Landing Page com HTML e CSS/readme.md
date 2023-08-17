@@ -7,4 +7,4 @@
 
 <br>
 
-![Alt text](image.png)
+<img src="./src/readme/image.png">
