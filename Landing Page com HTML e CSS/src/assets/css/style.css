@@ -1,0 +1,85 @@
+:root {
+    --primary: #ED4D1B;
+    --secundary: #FF9A3C;
+    --black: #000;
+    --white: #fff; 
+}
+
+body {
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
+    padding: 0 1rem;
+}
+
+header,
+.hero-section,
+.courses-section,
+footer {
+    border: solid var(--black);
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+}
+
+header img {
+    display: block;
+    margin: 1rem auto;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav a {
+    color: var(--black);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+header nav a:nth-child(2n-1) {
+    text-align: right;
+}
+
+.button {
+    background-color: var(--primary);
+    border: 2px solid var(--black);
+    box-shadow: 4px 4px 0 var(--black);
+    color: var(--black);
+    display: block;
+    font-size: 1.25rem;
+    padding: 0.75rem 1rem;
+    max-width: 14rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* ------------------------------------------ */
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-center {
+    text-align: center;
+}
