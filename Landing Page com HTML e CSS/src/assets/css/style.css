@@ -27,6 +27,7 @@ header img {
 header nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 1rem auto 0;
 }
 
 nav a {

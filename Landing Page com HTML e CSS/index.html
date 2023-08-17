@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="./src/assets/css/style.css">
     <link rel="stylesheet" href="./src/assets/css/reset.css">
+    <link rel="stylesheet" href="./src/assets/css/responsividade.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,24 +18,29 @@
 
 <body>
     <header>
-        <img src="./src/assets/img/logo.svg" alt="Tom's logo">
-        <nav class="mt-1 mx-auto">
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contato</a>
-        </nav>
-        <a href="#" class="button mt-1 mb-1 mx-auto">Inscreva-se</a>
+        <div class="container">
+            <img src="./src/assets/img/logo.svg" alt="Tom's logo">
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <a href="#" class="button mt-1 mb-1 mx-auto">Inscreva-se</a>
+        </div>
     </header>
 
     <main>
         <section class="hero-section">
-            <img src="./src/assets/img/hero-img.svg" alt="banda de jazz tocando">
-            <div>
-                <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
-                <p class="mt-2 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
-                    magna aliqua.</p>
-                <a href="#" class="button mt-1">Comece agora</a>
+            <div class="container row-reverse">
+                <img src="./src/assets/img/hero-img.svg" alt="banda de jazz tocando">
+                <div>
+                    <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+                    <p class="mt-2 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt dolore
+                        magna aliqua.</p>
+                    <a href="#" class="button mt-1">Comece agora</a>
+                </div>
             </div>
         </section>
 
@@ -82,23 +88,27 @@
     </main>
 
     <footer>
-        <div>
-            <img src="./src/assets/img/logo.svg" alt="logo da escola de música" class="mt-1 mb-1">
-            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
-                magna aliqua</p>
-        </div>
+        <div class="container">
+            <div class="about-column">
+                <img src="./src/assets/img/logo.svg" alt="logo da escola de música" class="mt-1 mb-1">
+                <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt u
+                    magna aliqua</p>
+            </div>
 
-        <nav class="mb-2">
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contato</a>
-        </nav>
-        <form class="newsletter-form">
-            <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
-            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite o seu e-mail">
-            <button class="button mb-2">Quero receber</button>
-        </form>
+            <nav class="mb-2">
+                <a href="#">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+
+            <form class="newsletter-form">
+                <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+                <input type="text" name="email" id="email" class="mb-1" placeholder="Digite o seu e-mail">
+                <button class="button mb-2">Quero receber</button>
+            </form>
+        </div>
     </footer>
 </body>
 
