@@ -44,7 +44,7 @@
         max-width: 72rem;
     }
 
-    .container .row-reverse {
+    .row-reverse {
         flex-direction: row-reverse;
     }
 
@@ -64,6 +64,11 @@
     .newsletter-form {
         flex: 3;
     }
+
+    footer nav a {
+        font-size: 24px;
+        line-height: 40px;
+    }
 }
 
 /* -------------------------------------------- */
@@ -71,5 +76,6 @@
 @media screen and (min-width: 80rem) {
     .container {
         max-width: 80rem;
+        align-items: flex-start;
     }
 }

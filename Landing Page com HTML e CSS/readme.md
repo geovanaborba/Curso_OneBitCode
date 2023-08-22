@@ -5,6 +5,35 @@
 
 ### 📂 [Arquivos utilizados](https://drive.google.com/drive/folders/1JQ1XixDVu4H9Czi0QtOHoWxF8LHhZtDR)
 
+### 💻 [Vídeo aula - PARTE 1](https://www.youtube.com/watch?v=Wo7UnH8TYbc&t)
+
+### 👩🏽‍💻 [Vídeo aula - PARTE 2](https://www.youtube.com/watch?v=b9Vw_LUyYmc&t)
+
 <br>
 
-<img src="./src/readme/image.png">
+<img src="./src/readme/image.png" width="70%">
+
+<br><br>
+<hr>
+
+### Alterações após terminar de assistir as aulas:
+
+<br>
+
+* Alinhamento flex-start aplicado no rodapé, além de aumento do tamanho da fonte do nav, a partir de (min-width: 72rem)
+
+* Tamanho do input no rodapé ajustado, para se aproximar ao layout do Figma
+
+* Itens no header espaçados adequadamente
+
+* Alteração de cor em todos os botões ao passar o mouse
+
+* Efeito de zoom nos cards, com alteração de cor nas setas ao passar o mouse
+
+* Mudança de cor em todos os links ao passar o mouse
+
+
+
+
+
+

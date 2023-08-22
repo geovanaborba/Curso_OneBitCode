@@ -30,6 +30,10 @@ header nav {
     margin: 1rem auto 0;
 }
 
+header nav a {
+    padding: 2.5rem;
+}
+
 nav a {
     color: var(--black);
     font-size: 1.25rem;
@@ -39,6 +43,10 @@ nav a {
 
 header nav a:nth-child(2n-1) {
     text-align: right;
+}
+
+nav a:hover {
+    filter: invert(50%);
 }
 
 .button {
@@ -53,6 +61,11 @@ header nav a:nth-child(2n-1) {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
 }
 
 .hero-section {
@@ -140,15 +153,23 @@ h2 {
     margin: 1rem 0;
 }
 
+.card:hover {
+    transform: scale(1.1);
+}
+
 .card a {
     display: block;
     margin: 3rem 0 0 auto;
     width: fit-content;
 }
 
+.card a:hover {
+    filter: invert(100%);
+}
+
 footer {
     border-bottom: 0;
-    padding: 1rem 1.25rem 4rem;
+    padding: 3rem 1.25rem 4rem 1.25rem;
 }
 
 footer nav a {
@@ -166,6 +187,7 @@ footer nav a {
     box-shadow: 4px 4px 0 var(--black);
     font-size: 1.5rem;
     padding: 0.5rem;
+    width: 90%;
 }
 
 /* ------------------------------------------ */
