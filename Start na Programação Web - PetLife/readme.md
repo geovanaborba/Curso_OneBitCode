@@ -2,7 +2,11 @@
 
 <br>
 
-### Resultado final: 
+### 🚀 [Ver página no GitHub Pages](https://geovanaborba.github.io/Curso_OneBitCode/Start%20na%20Programa%C3%A7%C3%A3o%20Web%20-%20PetLife/)
+
+<br>
+
+#### • Resultado final
 
 <img src="./assets/img/resultado.gif">
 
