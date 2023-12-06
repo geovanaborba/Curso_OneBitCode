@@ -14,11 +14,8 @@ header {
     background-color: #FF9A6C;
     display: flex;
     justify-content: space-between;
+    padding: 24px 80px;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 header a {
@@ -28,6 +25,10 @@ header a {
     text-decoration: none;
 }
 
+header a:hover {
+    color: #b13f30;
+}
+
 /* Seção inicial */
 #inicio {
     display: flex;
@@ -35,6 +36,7 @@ header a {
     gap: 32px;
     padding: 24px 80px 128px 80px;
     position: relative;
+    transition: 1s ease;
 }
 
 h1,
@@ -45,7 +47,7 @@ h2 {
 }
 
 .paragrafo {
-    line-height: 150%;
+    line-height: 300%;
     margin-bottom: 32px;
 }
 
@@ -61,7 +63,18 @@ h2 {
     background-color: transparent;
     color: #FF725E;
     padding: 16px 32px;
-    text-underline-offset: 4px;
+    text-decoration: none;
+    border: 2px solid #FF725E;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.botao:hover,
+.botao-transparente:hover {
+    background-color: #FF9A6C;
+    color: #FFFFFF;
+    border: none;
+    transition: .5s;
 }
 
 .absolute {
@@ -159,6 +172,8 @@ footer .titulo {
     display: block;
     font-weight: 600;
     margin-bottom: 24px;
+    color: #FF725E;
+    font-size: 18px;
 }
 
 footer nav a {
@@ -166,6 +181,10 @@ footer nav a {
     display: block;
     margin-bottom: 16px;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: #FF725E;
 }
 
 footer p {
@@ -188,3 +207,25 @@ footer p a {
 #copyright a {
     color: #FF9A6C;
 }
+
+/* Scrollbar */ 
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ff9a6c #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff9a6c;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+  }

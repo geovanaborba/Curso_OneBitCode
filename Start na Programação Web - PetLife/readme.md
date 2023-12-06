@@ -14,8 +14,10 @@
 
 <br>
 
-*
+* Aplicado :hover aos elementos com link e botões 
 
-*
+* Transition na seção início e botões
 
-*
+* Scrollbar personalizada
+
+* Responsividade
