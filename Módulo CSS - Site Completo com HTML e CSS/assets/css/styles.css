@@ -52,3 +52,102 @@ a {
     letter-spacing: 0.5rem;
     text-transform: uppercase;
 }
+
+.section {
+    overflow: hidden;
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.section_title {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 4rem auto;
+}
+
+.section_img,
+.section_img-inline {
+    border-radius: .75rem;
+    /* eixo x, eixo y, blur, expansão/recuo, cor */
+    box-shadow: 0 1rem 2rem -0.5rem rgba(20, 116, 180, 0.25);
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    max-height: 30rem;
+    width: 100%;
+}
+
+.section_text,
+.section_text-inline {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    margin: 4rem auto;
+}
+
+.section_img-inline {
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    float: left;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    height: 25rem;
+    width: 20rem;
+}
+
+.section_text-inline {
+    margin-top: 6rem;
+    text-align: left;
+}
+
+.section_text-inline > p {
+    margin-top: 1.5rem;
+}
+
+#hangouts img {
+    object-position: center;
+}
+
+.gallery_img {
+    border-radius: .75rem;
+    height: 16rem;
+    width: 16rem;
+    object-fit: cover;
+    transform: rotate(-2deg); /* deg = degrees */
+}
+
+.gallery_img-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.gallery_img-wrapper + .gallery_img-wrapper {
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.gallery_img-wrapper:nth-child(even) > .gallery_img {
+    top: 1rem;
+    transform: rotate(2deg);
+}
+
+.gallery_img-wrapper::after {
+    content: "";
+    background-color: rgb(228, 26, 26);
+    border-radius: 999px;
+    display: block;
+    height: 1.25rem;
+    width: 1.25rem;
+    position: absolute;
+    top: 0.25rem;
+    right: 1rem;
+}
+
+.gallery_img-wrapper:nth-child(even)::after {
+    left: 1rem;
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+}
