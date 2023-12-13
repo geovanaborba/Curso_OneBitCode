@@ -99,8 +99,9 @@ a {
     text-align: left;
 }
 
-.section_text-inline > p {
+.section_text-inline>p {
     margin-top: 1.5rem;
+    text-align: justify;
 }
 
 #hangouts img {
@@ -112,7 +113,8 @@ a {
     height: 16rem;
     width: 16rem;
     object-fit: cover;
-    transform: rotate(-2deg); /* deg = degrees */
+    transform: rotate(-2deg);
+    /* deg = degrees */
 }
 
 .gallery_img-wrapper {
@@ -120,12 +122,12 @@ a {
     position: relative;
 }
 
-.gallery_img-wrapper + .gallery_img-wrapper {
+.gallery_img-wrapper+.gallery_img-wrapper {
     margin-left: 3rem;
     margin-top: 3rem;
 }
 
-.gallery_img-wrapper:nth-child(even) > .gallery_img {
+.gallery_img-wrapper:nth-child(even)>.gallery_img {
     top: 1rem;
     transform: rotate(2deg);
 }
@@ -150,4 +152,14 @@ footer {
     margin-top: 4rem;
     padding: 2rem;
     text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .hero_title {
+        font-size: 3.5rem;
+    }
+    
+    .section {
+        padding: 0 1rem;
+    }
 }
