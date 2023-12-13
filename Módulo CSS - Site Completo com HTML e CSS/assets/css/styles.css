@@ -24,7 +24,6 @@ a {
     background: linear-gradient(rgba(0, 0, 0, 0.1), var(--color-background));
     position: relative;
     min-height: 100vh;
-    min-width: 100vw;
 }
 
 .hero_background {
@@ -163,3 +162,24 @@ footer {
         padding: 0 1rem;
     }
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #1474b4 #030207;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #030207;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #1474b4;
+    border-radius: 10px;
+  }
