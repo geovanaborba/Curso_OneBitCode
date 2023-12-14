@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: url('../img/background.jpeg');
+    background-size: cover;
+}
+
+.col-left,
+.col-right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    height: 300px;
+    padding: 40px;
+    text-align: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+form label {
+    font-size: 1.2rem;
+}
+
+form input {
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+
+select#campoEstudo,
+select#nascimento {
+    width: 183px;
+    height: 29px;
+}
+
+#btnSubmit {
+    margin: 20px 0;
+    padding: 10px 45px;
+    background-color: #696969;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 800px;
+    height: auto;
+    filter: invert(90%);
+}
+
+h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (min-width:768px) and (max-width:1220px) {
+    .col-left {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+        position: relative;
+    }
+
+    .col-right {
+        width: 100vw;
+        height: auto;
+        position: absolute;
+    }
+
+    img {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:767px) {
+    .col-left {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 6rem;
+    }
+
+    .col-right {
+        width: 100vw;
+        height: auto;
+        position: absolute;
+    }
+
+    form {
+        width: 288px;
+        height: 460px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    form div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    select#campoEstudo,
+    select#nascimento {
+        width: 268px;
+        height: 25px;
+        text-align: center;
+    }
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+}

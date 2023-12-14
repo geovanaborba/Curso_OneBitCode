@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cadastro de Usuário</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="col-left">
+            <form>
+                <h1>Cadastro de Recrutas</h1>
+                <div>
+                    <label for="nome">Nome </label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <!-- <div>
+                    <label for="campoEstudo">Campo de estudo </label>
+                    <input name="campoEstudo" id="campoEstudo" required>
+                </div>
+                <div>
+                    <label for="nascimento">Ano de Nascimento</label>
+                    <input name="nascimento" id="nascimento" required> 
+                </div> -->
+                <div>
+                    <label for="campoEstudo">Campo de estudo </label>
+                    <select name="campoEstudo" id="campoEstudo" required>
+                        <option value="" selected disabled>Escolher...</option>
+                        <option value="Tecnológico">Tecnológico</option>
+                        <option value="Histórico">Histórico</option>
+                        <option value="Sciológico">Sociológico</option>
+                        <option value="Geográfico">Geográfico</option>
+                        <option value="Cultural">Cultural</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="nascimento">Ano de Nascimento</label>
+                    <select name="nascimento" id="nascimento" required>
+                        <option value="" selected disabled>Ano</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                    </select>
+                </div>
+                <button type="submit" id="btnSubmit">Cadastrar</button>
+            </form>
+        </section>
+        <div class="col-right">
+            <img src="./assets/img/soldiers.png" alt="Cadastro">
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
