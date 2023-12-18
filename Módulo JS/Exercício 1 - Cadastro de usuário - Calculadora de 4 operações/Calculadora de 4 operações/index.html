@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <title>Calculadora</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Calculadora de 4 operações</h1>
+    </header>
+    <div class="container">
+        <div class="calculator">
+            <div class="values">
+                <label for="numberOne">Primeiro valor:</label>
+                <input type="number" id="numberOne" name="numberOne">
+                <label for="numberTwo">Segundo valor: </label>
+                <input type="number" id="numberTwo" name="numberTwo">
+            </div>
+            <div class="operators">
+                <p>Escolha a operação:</p>
+                <button class="add" onclick="add()">+</button>
+                <button class="subtract" onclick="subtract()">-</button>
+                <button class="divide" onclick="divide()">/</button>
+                <button class="multiply" onclick="multiply()">x</button>
+                <p>Resultado: </p>
+                <span></span>
+            </div>
+        </div>
+    </div>
     <script src="./script.js"></script>
 </body>
+
 </html>
