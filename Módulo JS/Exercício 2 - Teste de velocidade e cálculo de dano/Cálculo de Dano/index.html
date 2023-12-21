@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Cálculo de dano</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cálculo de dano</h1>
+    </header>
+    <main>
+        <section class="card1">
+            <img src="./assets/img/avatar1.png" alt="Avatar 1">
+            <label for="name1">Nome: </label>
+            <input type="text" name="name1" id="name1">
+            <label for="attack">Poder de Ataque: </label>
+            <input type="number" name="attack" id="attack">
+        </section>
+
+        <section class="center">
+            <button class="btnBattle">Lutar</button>
+            <span id="result"></span>
+        </section>
+
+        <section class="card2">
+            <img src="./assets/img/avatar2.jpg" alt="Avatar 2">
+            <label for="name2">Nome: </label>
+            <input type="text" name="name2" id="name2">
+            <label for="lifePoints">Pontos de Vida: </label>
+            <input type="number" name="lifePoints" id="lifePoints">
+            <label for="defensePoints">Pontos de Defesa: </label>
+            <input type="number" name="defensePoints" id="defensePoints">
+            <label class="chk">
+                <input type="checkbox" id="checkbox">
+                <span></span>
+                <p>Ativar Escudo</p>
+            </label>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
