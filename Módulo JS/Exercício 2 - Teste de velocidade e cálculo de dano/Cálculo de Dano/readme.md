@@ -12,19 +12,4 @@ Por fim, o programa deve subtrair a quantidade de dano da quantidade de pontos d
 
 <br>
 
-## [🚀 Ver página no GitHub Pages]()
-
-### 📌 Resultado:
-
-<img src="">
-
-<br>
-<hr>
-
-### 📖 Resolução proposta em aula
-
-
-
-<img src="">
-
-<br>
+## [🚀 Ver página no GitHub Pages](https://geovanaborba.github.io/Curso_OneBitCode/M%C3%B3dulo%20JS/Exerc%C3%ADcio%202%20-%20Teste%20de%20velocidade%20e%20c%C3%A1lculo%20de%20dano/C%C3%A1lculo%20de%20Dano/)
