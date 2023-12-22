@@ -6,4 +6,4 @@ Depois o programa deve exibir esses resultados e finalizar.
 
 <br>
 
-## [🚀 Ver resultado no GitHub Pages]()
+## [🚀 Ver resultado no GitHub Pages](https://geovanaborba.github.io/Curso_OneBitCode/M%C3%B3dulo%20JS/Exercício%206%20-%20Robô%20da%20tabuada%20e%20Procurando%20palíndromos/Robô%20da%20Tabuada)
