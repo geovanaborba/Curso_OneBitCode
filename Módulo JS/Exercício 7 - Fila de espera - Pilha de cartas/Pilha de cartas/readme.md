@@ -13,3 +13,7 @@ Ao escolher “Adicionar uma carta”, o programa deve perguntar o nome da carta
 Ao escolher “Puxar uma carta”, o programa deve retirar a carta do topo do baralho e mostrar na tela o nome da carta puxada. 
 
 O programa só deve ser encerrado ao escolher a opção de “Sair”, caso contrário deve voltar ao menu.
+
+<br>
+
+## [🚀 Ver resultado no GitHub Pages](https://geovanaborba.github.io/Curso_OneBitCode/M%C3%B3dulo%20JS/Exercício%207%20-%20Fila%20de%20espera%20-%20Pilha%20de%20cartas/Pilha%20de%20cartas)
