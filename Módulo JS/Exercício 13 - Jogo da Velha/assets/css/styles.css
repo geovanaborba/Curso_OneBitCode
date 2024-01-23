@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem 10rem;
+}
+
+h1 {
+    padding-bottom: 3rem;
+}
+
+label {
+    font-weight: bold;
+    padding-right: .2rem;
+    font-size: 1.3rem;
+}
+
+input {
+    padding: .3rem;
+    border: 1px solid;
+    border-radius: .5rem;
+}
+
+button {
+    padding: .5rem 1.2rem;
+    margin-left: 1rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: #25a340;
+    border: .1rem solid #000;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+#gameBoard {
+    background-color: #232323;
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    max-width: 19rem;
+}
+
+#gameBoard span {
+    background-color: #ddd;
+    display: grid;
+    place-content: center;
+    font-size: 5rem;
+}
+
+#gameBoard span.win {
+    background-color: #25a340;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
