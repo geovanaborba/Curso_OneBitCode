@@ -58,4 +58,4 @@ Essas funções devem mostrar o resultado de alguma forma em texto porém não �
 
 <br>
 
-## [🚀 Ver resultado no GitHub Pages](https://geovanaborba.github.io/Curso_OneBitCode/M%C3%B3dulo%20JS/Exercício%2014%20-%20Estatística%20na%20Programação)
+## [🚀 Ver resultado no GitHub Pages](https://geovanaborba.github.io/Curso_OneBitCode/M%C3%B3dulo%20JS/Exercício%2014%20-%20Estatística%20na%20programação)
