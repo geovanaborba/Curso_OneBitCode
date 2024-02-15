@@ -16,6 +16,4 @@ function birthday(date) {
     //Obs.: caso falte horas para o próximo aniversário, (por exemplo, se o aniversário é amanhã) no terminal seria indicado que faltam 0 dias para o aniversário.Faz-se necessário corrigir isso utilizando a quantidade 1 para incluir o dia de hoje na contagem. Esse mais 1, deve ser incluído na variável daysToNextBirthday
 };
 
-
-
 birthday('1994-12-19'); //ano precisa estar em formato americano

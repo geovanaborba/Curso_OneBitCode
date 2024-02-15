@@ -4,7 +4,7 @@ Nesse exercício você irá treinar uma habilidade muito importante para qualque
 
 • Você deverá criar uma função JavaScript que recebe como parâmetro a data de nascimento de uma pessoa no formato string.
 
-• Mostre no terminal a idade dessa pessoa no dia atual 
+• Mostre no **TERMINAL** a idade dessa pessoa no dia atual 
 
 • Sua próxima data de aniversário no formato "DD/MM/AAAA" e 
 
@@ -26,7 +26,7 @@ Você também deve consultar a documentação do dayjs, disponível em (https://
 <hr>
 <br>
 
-Nessa aplicação você não utilizará o browser. Você deverá utilizar o **Node.js**. 
+**Nessa aplicação você não utilizará o browser.** Você deverá utilizar o **Node.js**. 
 Para executar seu arquivo com o Node.js basta acessar a pasta onde ele está localizado com o terminal e digitar o comando *node seu_arquivo.js*. 
 
 Além disso, você deverá utilizar a sintaxe dos módulos CommonJS para trabalhar com o dayjs, ou seja, a função require().
